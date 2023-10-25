@@ -1,0 +1,56 @@
+/* estilo.css */
+:root {
+    --cor1: #cd9965;
+    --cor2: #b4debe;
+    --cor3: #77cca4;
+    --cor4: #f5ffed;
+    --cor5: #b4df37;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Cor de fundo */
+body {
+    background-color: #dfc2a4;
+}
+
+.logotipoCad {
+    background-color: var(--cor1);
+    width: 100%;
+
+    display: flex;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.logotipoCad > img {
+    width: 30%;
+    height: 50%;
+
+    margin: 0 auto;
+}
+
+.LogotipoP {
+    font-size: 300px;
+}
+
+.form-control {
+    border: 1.5px solid black;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-column {
+    flex: 1;
+    padding: 10px;
+}
+
+.haha{
+    color: #dfc2a4;
+}
