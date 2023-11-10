@@ -39,45 +39,48 @@
                     <h1>Cadastro:</h1>
                 </div>
                 <div class="mb-3">
-                    <label for="nome" class="form-label">Nome</label>
-                    <input type="text" class="form-control" id="nome" aria-describedby="nomeHelp">
+                    <span for="nome" class="form-span">Nome</span>
+                    <input type="text" class="form-control" id="nome">
                     <div id="nomeHelp" class="form-text"></div>
                 </div>
                 <div class="mb-3">
-                    <label for="cpf" class="form-label">CPF:</label>
-                    <input type="text" class="form-control" id="cpf" aria-describedby="cpfHelp">
+                    <span for="cpf" class="form-span">CPF:</span>
+                    <input type="text" class="form-control" id="cpf">
                     <div id="cpfHelp" class="form-text"></div>
                 </div>
                 <div class="mb-3">
-                    <label for="telefone" class="form-label">Telefone/Celular:</label>
-                    <input type="text" class="form-control" id="telefone" aria-describedby="telefoneHelp">
+                    <span for="telefone" class="form-span">Telefone/Celular:</span>
+                    <input type="text" class="form-control" id="telefone">
                     <div id="telefoneHelp" class="form-text">Inclua DDD e código de região.</div>
                 </div>
             </div>
             <div class="form-column">
                 <h1 class="haha">haha</h1>
                 <div class="mb-3">
-                    <label for="endereco" class="form-label">Endereço:</label>
-                    <input type="text" class="form-control" id="endereco" aria-describedby="enderecoHelp">
+                    <span for="endereco" class="form-span">Endereço:</span>
+                    <input type="text" class="form-control" id="endereco">
                     <div id="enderecoHelp" class="form-text">Se precisar, inclua informações adicionais.</div>
                 </div>
                 <div class="mb-3">
-                    <label for="email" class="form-label">Endereço de email</label>
-                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                    <span for="email" class="form-span">Endereço de email</span>
+                    <input type="email" class="form-control" id="email">
                     <div id="emailHelp" class="form-text">Não devemos compartilhar nossas informações com terceiros.</div>
                 </div>
                 <div class="mb-3">
-                    <label for="senha" class="form-label">Senha</label>
+                    <span for="senha" class="form-span">Senha</span>
                     <input type="password" class="form-control" id="senha">
                 </div>
                 <div class="mb-3 form-check">
                     <input type="checkbox" class="form-check-input" id="confirmaCheck">
-                    <label class="form-check-label" for="confirmaCheck">Confirmação</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
+                    <span class="form-check-span" for="confirmaCheck">Confirmação</span>
+                </div> 
+                <button type="button" class="btn btn-primary" onclick="cadastrar()">Enviar</button>
             </div>
         </form>
     </div>
     <!-- FIM!🧐AbaCadastro🧐 -->
+
+    <script src="Js/armazenarValor.js"></script>
+
 </body>
 </html>
